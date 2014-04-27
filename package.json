@@ -1,6 +1,6 @@
 {
   "name": "blocko",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "blocks everybody who RTs a given tweet",
   "main": "bin/blocko.js",
   "repository": {
