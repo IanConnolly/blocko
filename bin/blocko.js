@@ -3,7 +3,10 @@ var config = require('../config.json');
 var Twit = require('twit');
 var argv = require('yargs').argv;
 
-if (config.consumer_key === "your_api_token") {
+if (config.consumer_key === "your_api_token"
+ || config.consumer_secret === "your_secret_api_token"
+ || config.access_token === "your_access_token"
+ || config.access_token_secret === "your_secret_access_token") {
     console.log("Hey! Go read the README first!");
     console.log("You need to generate some Twitter API + Access keys!");
     process.exit(-1);
