@@ -16,7 +16,7 @@ var T = new Twit(config);
 
 function block(id) {
   T.post('blocks/create', { user_id: id }, function (err, reply) {
-      if (err) console.err(err);
+      if (err) console.error(err);
       if (reply) console.log('Blocked user: ' + reply.id);
   });
 }
