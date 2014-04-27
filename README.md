@@ -1,4 +1,4 @@
-block0
+blocko
 =============
 
 for when a RT was an endorsement, block everybody who RT'd a tweet
