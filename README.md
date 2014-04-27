@@ -10,7 +10,7 @@ for when a RT was an endorsement, block everybody who RT'd a tweet
 
 Create a twitter application and generate an access key.
 
-Stick your API + access keys in config.json
+Stick your API + access keys in /usr/local/share/npm/lib/node_modules/blocko/config.json
 
 run
 
