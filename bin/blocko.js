@@ -6,10 +6,10 @@ var argv = require('yargs').argv;
 
 var in_id;
 
-if (argv.url) {
-    in_id = argv.url.match(/[^/]+$/)[0];
-} else {
+if (argv.id) {
     in_id = argv._[0];
+} else {
+    in_id = argv.url.match(/[^/]+$/)[0];
 }
 
 var T = new Twit(config);

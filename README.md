@@ -14,10 +14,10 @@ Stick your API + access keys in /usr/local/share/npm/lib/node_modules/blocko/con
 
 run
 
-```blocko --url="<tweet-url>""```
+```blocko "<tweet-url>""```
 
 or
 
-```blocko <tweet-id>```
+```blocko id="<tweet-id>""```
 
 (warning, will only block the first for the moment)
