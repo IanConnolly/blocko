@@ -1,4 +1,4 @@
-blocker
+block0
 =============
 
 for when a RT was an endorsement, block everybody who RT'd a tweet
@@ -6,7 +6,7 @@ for when a RT was an endorsement, block everybody who RT'd a tweet
 
 ## Usage
 
-```npm install -g blocker```
+```npm install -g blocko```
 
 Create a twitter application and generate an access key.
 
@@ -14,10 +14,10 @@ Stick your API + access keys in config.json
 
 run
 
-```blocker --url="<tweet-url>""```
+```blocko --url="<tweet-url>""```
 
 or
 
-```blocker <tweet-id>```
+```blocko <tweet-id>```
 
 (warning, will only block the first for the moment)

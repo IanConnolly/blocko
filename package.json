@@ -1,13 +1,13 @@
 {
-  "name": "blocker",
+  "name": "blocko",
   "version": "0.1.0",
   "description": "blocks everybody who RTs a given tweet",
-  "main": "bin/blocker.js",
+  "main": "bin/blocko.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/ianconnolly/blocker.git"
+    "url": "http://github.com/ianconnolly/blocko.git"
   },
-  "homepage": "http://github.com/ianconnolly/blocker",
+  "homepage": "http://github.com/ianconnolly/blocko",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +16,7 @@
       "twit": "1.1.12"
   },
   "bin": {
-      "fave": "bin/blocker.js"
+      "fave": "bin/blocko.js"
   },
   "author": "Ian Connolly",
   "license": "MIT"
