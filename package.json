@@ -1,0 +1,23 @@
+{
+  "name": "blocker",
+  "version": "0.1.0",
+  "description": "blocks everybody who RTs a given tweet",
+  "main": "bin/blocker.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ianconnolly/blocker.git"
+  },
+  "homepage": "http://github.com/ianconnolly/blocker",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+      "yargs": ">= 1.2.1",
+      "twit": "1.1.12"
+  },
+  "bin": {
+      "fave": "bin/blocker.js"
+  },
+  "author": "Ian Connolly",
+  "license": "MIT"
+}
