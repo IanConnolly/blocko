@@ -10,14 +10,14 @@ for when a RT was an endorsement, block everybody who RT'd a tweet
 
 Create a twitter application and generate an access key.
 
-Stick your API + access keys in /usr/local/share/npm/lib/node_modules/blocko/config.json
+Stick your API + access keys in $where_npm_lives/lib/node_modules/blocko/config.json
 
 run
 
-```blocko "<tweet-url>""```
+```blocko "<tweet-url>"```
 
 or
 
-```blocko id="<tweet-id>""```
+```blocko id="<tweet-id>"```
 
 (warning, will only block the first 100 due to limitations of the Twitter API)
