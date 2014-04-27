@@ -1,7 +1,7 @@
 blocko
 =============
 
-for when a RT was an endorsement, block everybody who RT'd a tweet
+because sometimes a RT really was an endorsement. 
 
 
 ## Usage
