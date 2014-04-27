@@ -16,7 +16,7 @@
       "twit": "1.1.12"
   },
   "bin": {
-      "fave": "bin/blocko.js"
+      "blocko": "bin/blocko.js"
   },
   "author": "Ian Connolly",
   "license": "MIT"
