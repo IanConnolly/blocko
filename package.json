@@ -1,7 +1,7 @@
 {
   "name": "blocko",
-  "version": "0.1.8",
-  "description": "blocks everybody who RTs a given tweet",
+  "version": "0.1.9",
+  "description": "block the latest 100 people who RT'd a given tweet",
   "main": "bin/blocko.js",
   "repository": {
     "type": "git",

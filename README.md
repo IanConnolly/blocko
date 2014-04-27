@@ -20,4 +20,4 @@ or
 
 ```blocko id="<tweet-id>"```
 
-(warning, will only block the first 100 due to limitations of the Twitter API)
+(warning, will only block the latest 100 due to limitations of the Twitter API)
